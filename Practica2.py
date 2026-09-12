@@ -9,17 +9,17 @@
 print(" - - - - - - - - - - -")
 print("Ejercicio 1: Función de Saludo Personalizado")
 #Definimos la funcion
-def saludo_perso(nombre:str):
+def saludo_personalizado(nombre:str):
     print(f"Hola {nombre}, resoolviste el primer ejercicio :) ") 
 
 #Ingresamos el primer nombre
 nombre: str = input("Ingrese el primer nombre: ")
 #Llamamos a la funcion por primera vez
-saludo_perso(nombre)
+saludo_personalizado(nombre)
 #Ingresamos otro nombre
 nombre2: str = input("Ingrese el segundo nombre: ")
 #Llamamos a la funcion por segunda vez
-saludo_perso(nombre2)
+saludo_personalizado(nombre2)
 
 """
     Ejercicio 2: Calculadora de Área de Círculo
